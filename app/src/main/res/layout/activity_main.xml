@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/vv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@color/colorAccent"
+        android:layout_weight="3"/>
+
+    <Button
+        android:id="@+id/btn_histo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Change Histogram"
+        android:textAllCaps="false"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_rounded_button"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Y C A W"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_rounded"
+        android:layout_margin="6dp"/>
+
+</LinearLayout>
